@@ -1,0 +1,10 @@
+.card-container {
+  background-color: aqua;
+  padding: 1rem;
+  max-width: fit-content;
+}
+
+.card-title {
+  background-color: green;
+  padding: 1rem;
+}
