@@ -1,10 +1,10 @@
 import "../styles/Card.css";
 
-export default function Card() {
+export default function Card({ name, image }) {
   return (
     <div className="card-container">
-      <img src="../src/assets/saddie.jpeg" alt="Saddie" />
-      <div className="card-title">Sade</div>
+      <img src={image} alt={name} loading="lazy" />
+      <div className="card-title">{name}</div>
     </div>
   );
 }
