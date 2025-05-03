@@ -83,6 +83,7 @@ function App() {
       <div>
         <Button text={"New Pokemons"} onClick={handleNewPokemonsButton} />
         <Button text={"Shuffle Deck"} onClick={handleShuffleDeck} />
+        <h3>Click each pokemon only once to score.</h3>
       </div>
       <Score currentScore={currentScore} maxScore={maxScore} />
       <div className="card-grid">
